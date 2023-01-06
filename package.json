@@ -1,0 +1,40 @@
+{
+    "name": "timezone-ids",
+    "version": "1.0.0",
+    "description": "Support timezone type for typescript with TimeZoneID. Provide a list of timezone ids",
+    "keywords": [
+        "timezone",
+        "timezone ids",
+        "timezone type",
+        "timezones",
+        "lists of timezones",
+        "timezone typescript",
+        "ts timezone"
+    ],
+    "author": "Tuan Nguyen",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tuannguyen7326/timezone-ids.git"
+    },
+    "type": "commonjs",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "dev:createtypes": "nodemon ./dev/index.ts",
+        "dev": "nodemon ./src/index.ts",
+        "build": "rmdir /S /Q lib & tsc & prettier -w lib",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/jest": "^29.2.5",
+        "@types/node": "^18.11.18",
+        "ts-jest": "^29.0.3",
+        "typescript": "^4.9.4",
+        "xml-js": "^1.6.11"
+    }
+}

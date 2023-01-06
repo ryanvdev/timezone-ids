@@ -1,0 +1,8 @@
+{
+    "ignore": [
+        "./dataset/",
+        "./node_modules/",
+        "./src/types.ts",
+        "./src/timezoneids.ts"
+    ]
+}
